@@ -1,0 +1,271 @@
+/*
+    clases = .nombre_clase{propiedades de estilo}
+    etiquetas HTML = etique{propiedades de estilo}
+ */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+
+.product-container {
+    width: 100%;
+    height: 95%;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.card-product {
+    box-shadow: 0 4px 8px 0 rgb(99, 98, 100);
+    border-radius: 5px;
+    width: 25%;
+    height: 250px;
+    padding: 8px 8px;
+    background-color: #CCD9D9;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.content {
+    padding: 15px 15px;
+}
+
+img {
+    padding: 4px 4px;
+    border-radius: 5px;
+    display: inline;
+}
+
+.links-card {
+    background-color: aliceblue;
+}
+
+.UlContainer {
+    width: 100%;
+    height: 5%;
+}
+
+ul {
+    list-style-type: none;
+    margin-bottom: 25px;
+    padding: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+li a.active {
+    background-color: #04aa04;
+    color: white;
+}
+
+.borde {
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    background-color: #555;
+}
+
+.cuadro_name {
+    width: 100%;
+    height: 140px;
+    background-color: rgb(208, 208, 247);
+    position: relative;
+    margin: auto;
+    font-size: 40px;
+}
+
+label {
+    width: 80%;
+    margin-left: 45px;
+    font-size: 25px;
+}
+
+input {
+    width: 80%;
+    margin-left: 45px;
+    border: 1px whitesmoke solid;
+    background-color: white;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.cuadro_price {
+    width: 100%;
+    height: 140px;
+    background-color: rgb(208, 208, 247);
+    position: relative;
+    margin: auto;
+    font-size: 40px;
+}
+
+.cuadro_inventory {
+    width: 100%;
+    height: 140px;
+    background-color: rgb(208, 208, 247);
+    position: relative;
+    margin: auto;
+    font-size: 40px;
+}
+
+.cuadro_botton {
+    width: 100%;
+    height: 140px;
+    background-color: rgb(208, 208, 247);
+    position: relative;
+    margin: auto;
+}
+
+.cuadro_botton button {
+    font-size: large;
+    border: 5px rgb(243, 87, 87) solid;
+    height: 75px;
+    width: 70%;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    margin-top: 45px;
+    margin-left: 100px;
+}
+
+.cuadro_new_product {
+    color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    height: 140px;
+    background-color: rgb(208, 208, 247);
+}
+
+.cuadro_new_product h1 {
+    margin-left: 45px;
+    margin-top: 45px;
+}
+
+.cuadro_name:hover {
+    background-color: grey;
+}
+
+.cuadro_price:hover {
+    background-color: grey;
+}
+
+.cuadro_inventory:hover {
+    background-color: grey;
+}
+
+.cuadro_botton:hover {
+    background-color: grey;
+}
+
+.MainSeccionCar {
+    min-height: 100vh;
+    height: auto;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.centeredDetails {
+    margin-top: 5px;
+    height: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.centeredDetails h3 {
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    margin-left: 50px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.product {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    width: 90%;
+    height: 100%;
+}
+
+table {
+    height: 100%;
+    width: 100%;
+}
+
+td img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+th {
+    width: 20%;
+    height: 100%;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+td::-webkit-scrollbar {
+    display: none;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.auxInfoInput {
+    display: none;
+    z-index: 999;
+    color: red;
+    position: relative;
+    font-size: 17px;
+    margin-left: 45px;
+    margin-top: 0;
+}
